@@ -20,8 +20,9 @@ $("form").submit(function(e) {
 });*/
 
 $(document).ready(function() {
-    var newDiv = $('<div>');
-    for (var i = 0; i <= 5; i++) {
+   // var newDiv = $('<div>');
+    for (var i = 0; i < 5; i++) {
+        var newDiv = $('<div class="box">');
         $('article').prepend(newDiv);
     }
 });
