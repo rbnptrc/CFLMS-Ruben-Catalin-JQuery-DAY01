@@ -48,4 +48,5 @@
 
 // every second and third p element
 
-$("p:nth-of-type(2n+3)").css("background-color", "yellow"); //not finished
+//$("p:nth-of-type(2)").css("background-color", "yellow"); //not finished
+$("p:nth-of-type(n+2)").css("background-color", "yellow"); //not finished
