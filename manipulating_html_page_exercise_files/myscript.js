@@ -6,8 +6,22 @@ $("form").submit(function(e) {
 
 });
 
-$(document).ready(function()) {
+/*$(document).ready(function() {
+    $("button").click(function() {
+        $("#myform").remove();
+    });
+});*/
 
+//$('body').html($('<div>', {class: 'box'}));
 
-}
-$("myform").remove();
+/*$(document).ready(function() {
+    var newDiv = $('<div>'); // definition of the new element
+    $('article').prepend(newDiv); // insert the new element before the <li> tag
+});*/
+
+$(document).ready(function() {
+    var newDiv = $('<div>');
+    for (var i = 0; i <= 5; i++) {
+        $('article').prepend(newDiv);
+    }
+});
