@@ -6,16 +6,21 @@
  */
 
 // all elements
-// $("*").css("background-color", "yellow");
+//$("*").css("background-color", "yellow");
 
 // all p elements
+
+// $("p").css("background-color", "yellow"); checked
 
 
 // the p element with an ID of "intro"
 
+// $("#intro").css("background-color", "yellow"); checked
+
 
 // all elements with a class of "note"
 
+// $(".note").css("background-color", "yellow"); checked
 
 // all DIV elements with a class of note
 
